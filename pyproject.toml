@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yt-dlp-tldv"
+version = "0.1.0"
+description = "yt-dlp extractor plugin for tldv.io meeting recordings"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = ["yt-dlp>=2023.01.02"]
+keywords = ["yt-dlp", "yt-dlp-plugin", "tldv", "meeting-recording"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Video",
+]
+
+[project.urls]
+Repository = "https://github.com/nichochar/yt-dlp-tldv"
+
+[tool.hatch.build.targets.wheel]
+packages = ["yt_dlp_plugins"]
