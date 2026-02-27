@@ -20,7 +20,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/nichochar/yt-dlp-tldv"
+Repository = "https://github.com/ofcRS/yt-dlp-tldv"
 
 [tool.hatch.build.targets.wheel]
 packages = ["yt_dlp_plugins"]
