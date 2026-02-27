@@ -5,3 +5,5 @@ dist/
 build/
 *.egg
 .eggs/
+CLAUDE.md
+TODO.md

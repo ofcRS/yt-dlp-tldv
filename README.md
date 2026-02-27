@@ -42,7 +42,9 @@ yt-dlp --extractor-args "tldv:token=YOUR_JWT_TOKEN" \
   "https://tldv.io/app/meetings/MEETING_ID"
 ```
 
-### Alternative: username/password
+### Alternative: username/password (experimental)
+
+> **Note:** Username/password authentication uses tldv's `/auth/login` API endpoint, which has not been fully verified. If it doesn't work, use the token method above instead.
 
 ```bash
 yt-dlp -u your@email.com -p yourpassword "https://tldv.io/app/meetings/MEETING_ID"
