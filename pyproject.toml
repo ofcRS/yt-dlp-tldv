@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "yt-dlp extractor plugin for tldv.io meeting recordings"
 readme = "README.md"
 license = "MIT"
-authors = [{name = "Nicholas Charriere", email = "nichochar@gmail.com"}]
+authors = [{name = "ofcRS", email = "a.sakhatskii@gmail.com"}]
 requires-python = ">=3.9"
 dependencies = ["yt-dlp>=2023.01.02"]
 keywords = ["yt-dlp", "yt-dlp-plugin", "tldv", "meeting-recording"]
