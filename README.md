@@ -1,5 +1,9 @@
 # yt-dlp-tldv
 
+[![PyPI](https://img.shields.io/pypi/v/yt-dlp-tldv)](https://pypi.org/project/yt-dlp-tldv/)
+[![Python](https://img.shields.io/pypi/pyversions/yt-dlp-tldv)](https://pypi.org/project/yt-dlp-tldv/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A [yt-dlp](https://github.com/yt-dlp/yt-dlp) extractor plugin for downloading [tldv.io](https://tldv.io) meeting recordings.
 
 ## Installation
@@ -11,7 +15,7 @@ pip install yt-dlp-tldv
 Or install from source:
 
 ```bash
-git clone https://github.com/nichochar/yt-dlp-tldv.git
+git clone https://github.com/ofcRS/yt-dlp-tldv.git
 cd yt-dlp-tldv
 pip install -e .
 ```
